@@ -86,3 +86,37 @@ header {
     font-size: 20px;
     line-height: 1.2;
 }
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 792px;
+    padding: 90px 0;
+}
+
+#course-content p {
+    line-height: 1.2;
+}
+
+section .module {
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    padding: 16px 0;
+    width: 535px;
+    box-shadow: inset -3px 6px 3px rgba(0, 0, 0, .5);
+}
+
+section .module, #course-content p {
+    margin: 24px auto;
+}
+
+.module>span {
+    color: #33A8DB;
+}
+
+.module {
+    color: #fff;
+}
