@@ -39,8 +39,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #33A8DB;
     padding-bottom: 32px;
+}
+
+header, section {
+    border-bottom: 1px solid #33A8DB;
+
 }
 
 
@@ -92,12 +96,13 @@ header {
     flex-direction: column;
     margin: auto;
     text-align: center;
-    width: 792px;
+    width: auto;
     padding: 90px 0;
 }
 
 #course-content p {
     line-height: 1.2;
+    width: 55%;
 }
 
 section .module {
@@ -119,4 +124,23 @@ section .module, #course-content p {
 
 .module {
     color: #fff;
+}
+
+
+#transform-world {
+    background-image: url(/trilha-css-desafio-01/assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 363px;
+    display: flex;
+}
+
+#transform-world>p {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: lowercase;
+    text-shadow: 3px 2px #33A8DB;
+    width: 244px;
+    margin: auto;
+    margin-left: 10%;
 }
